@@ -1,0 +1,12 @@
+DROP DATABASE cloud;
+
+CREATE DATABASE cloud
+    COLLATE = 'utf8_general_ci'
+    DEFAULT CHARACTER SET = 'utf8';
+
+CREATE TABLE user (
+    id   VARCHAR(32) PRIMARY KEY NOT NULL DEFAULT '',
+    name VARCHAR(32)
+)
+    ENGINE = InnoDB
+    DEFAULT CHARSET = utf8;
