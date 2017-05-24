@@ -27,6 +27,7 @@
     <modules>
         <module>springboot-getstart</module>
         <module>cloud-config-server</module>
+        <module>cloud-config-client-simple</module>
     </modules>
 
     <dependencyManagement>
