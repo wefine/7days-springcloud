@@ -28,6 +28,7 @@
         <module>springboot-getstart</module>
         <module>cloud-config-server</module>
         <module>cloud-config-client-simple</module>
+        <module>cloud-config-client-jpa</module>
     </modules>
 
     <dependencyManagement>

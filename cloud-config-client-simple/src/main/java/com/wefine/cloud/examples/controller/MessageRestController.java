@@ -1,4 +1,4 @@
-package com.wefine.cloud.examples.web;
+package com.wefine.cloud.examples.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;
