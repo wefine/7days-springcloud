@@ -11,7 +11,7 @@
     <name>springboot-getstart</name>
 
     <parent>
-        <artifactId>7days-springcloud</artifactId>
+        <artifactId>my-springcloud</artifactId>
         <groupId>com.wefine.cloud</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>

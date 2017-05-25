@@ -1,0 +1,23 @@
+
+spring:
+    application:
+        # 指定服务名称，通过该名称交互
+        name:  eureka-hi
+
+server:
+    port: 8180
+
+eureka:
+    instance:
+        hostname: localhost
+        instance-id: ${eureka.instance.hostname}-${server.port}-hi
+        # 服务状态页面地址，默认为 /info
+        status-page-url-path: /service-instances/eureka-hi
+    client:
+        service-url:
+            # 注册中心地址
+            defaultZone: http://localhost:8761/eureka/
+
+logging:
+    level:
+        ROOT: INFO
