@@ -1,0 +1,18 @@
+
+spring:
+    application:
+        name: city-service
+    cloud:
+        consul:
+            host: 10.114.51.190
+            port: 8500
+            enabled: true
+            discovery:
+                ip-address: ${spring.cloud.consul.host}
+                port: ${spring.cloud.consul.port}
+                prefer-ip-address: true
+                enabled: true
+                health-check-url: http://10.114.12.11:${server.port}/health
+                health-check-interval: 10s
+server:
+    port: 8183
