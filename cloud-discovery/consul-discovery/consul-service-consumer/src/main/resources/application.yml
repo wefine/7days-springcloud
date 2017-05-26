@@ -1,0 +1,13 @@
+
+server:
+    port: 8080
+
+spring:
+    application:
+        name: city-service-consumer
+    cloud:
+        consul:
+            host: 10.114.51.190
+            port: 8500
+            discovery:
+                register: false
